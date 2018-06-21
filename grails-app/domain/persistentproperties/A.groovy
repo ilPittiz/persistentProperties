@@ -6,5 +6,8 @@ class A {
 	int b
 	boolean c
 	Set<F> fs
+	Set<F> efs
+
+	static embedded = [ 'efs' ]
 	
 }
